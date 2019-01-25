@@ -1,18 +1,29 @@
 {
   "name": "mynew",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Node only app",
+   "private": true,
+   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+    "start": "node ecom.js"
+  },
+  
+
+  "author": "adesh",
+  "license": "adesh.eddi@gmail.com"
   
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "express": "^4.16.4",
-    "jwt-simple": "^0.5.5",
-    "moment": "^2.24.0",
-    "mongojs": "^2.6.0",
-    "mongoose": "^5.4.6",
-    "multer": "^1.4.1",
+   "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "isodate": "^0.1.4",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.22.2",
+    "mongojs": "^2.6.0",
+    "mongoose": "^5.2.2",
+    "multer": "^1.3.1",
     "nodemailer": "^4.6.8",
     "nodemailer-templation": "^0.1.4",
     "officegen": "^0.4.5",
@@ -20,13 +31,6 @@
   },    
 
   
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    
-    "start": "node ecom.js"
-  },
-
-  "author": "adesh",
-  "license": "adesh.eddi@gmail.com"
+ 
   
 }
