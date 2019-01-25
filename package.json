@@ -9,7 +9,6 @@
     "start": "node ecom.js"
   },
   
-
   "author": "adesh",
   "license": "adesh.eddi@gmail.com",
   
@@ -28,9 +27,6 @@
     "nodemailer-templation": "^0.1.4",
     "officegen": "^0.4.5",
     "sequelize": "^4.38.1"
-  },    
-
-  
- 
+  } 
   
 }
