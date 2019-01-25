@@ -12,7 +12,7 @@ var path=require('path');
 app.use(express.static(path.join(__dirname,'uploads')));
 
 var mongoose=require('mongoose');
-mongoose.connect('mongodb://adesheddie:gaming619*@ds121495.mlab.com:21495/shoppy');
+mongoose.connect('mongodb://adesh:gaming619*@ds121495.mlab.com:21495/shoppy');
 
 app.use(function(req,res,next){
     res.header('Access-Control-Allow-Origin','*');
