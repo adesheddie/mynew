@@ -11,7 +11,7 @@
   
 
   "author": "adesh",
-  "license": "adesh.eddi@gmail.com"
+  "license": "adesh.eddi@gmail.com",
   
   "dependencies": {
    "bcryptjs": "^2.4.3",
